@@ -60,6 +60,14 @@ h2 {
      text-align: center;
  }
 
- .cookieText {
+.cookieText {
+    color: red;
+}
+
+#feedMe {
+    color:green;
+}
+
+#dontFeedMe {
     color: red;
 }
