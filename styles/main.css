@@ -29,7 +29,7 @@ body {
 
 
 * {
-    cursor: url(/images/sausage-cursor.cur), none;
+    cursor: url(/images/transparent-cursor.cur), none;
 }
 
 i {
@@ -75,4 +75,18 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+@keyframes spin {
+    from {
+    transform: rotate(0turn);
+    }
+    to {
+    transform: rotate(1turn);
+    }
+}
+  
+.sausage-image2 {
+    animation: spin 1000ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
