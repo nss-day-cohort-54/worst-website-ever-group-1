@@ -59,9 +59,17 @@ h2 {
  .cookieText {
     color: red;
 }
-
+@keyframes spin {
+    from {
+      transform: rotate(0turn);
+    }
+    to {
+      transform: rotate(1turn);
+    }
+}
+  
 .sausage-image2 {
-    width: 10px;
-    height: 10px;
-    flex-direction: row;
+    animation: spin 1000ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
