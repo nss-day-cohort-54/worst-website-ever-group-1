@@ -1,1 +1,6 @@
-var span = document.getElementsByClassName("cookieButton")
+var btn = document.getElementsByClassName("cookieBtn")
+
+btn.onclick = function() {
+    cookieBtn.style.display ="none"
+}
+
