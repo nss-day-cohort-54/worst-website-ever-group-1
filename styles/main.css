@@ -39,10 +39,15 @@ body {
 
 
 .cookieContent{
+    color: black;
     display: flex;
     border: 2px solid blue;
-
 }
+
+* {
+    cursor: url(/images/sausage-cursor.cur), none;
+}
+
 
 .cookieText {
     color: red;
