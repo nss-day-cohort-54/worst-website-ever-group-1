@@ -24,59 +24,64 @@ body {
     background-attachment: fixed;
     background-size: 100%;
     color: lightgreen;
-  }
-
-.cookieBox {
-    border: 2px solid red;
-    display: flex;
-    background-color: salmon;
-    position: fixed;
-    z-index: 1;
-    flex-direction: column;
-}
-
-.cookieButton {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
 }
 
 
-.cookieContent{
-    color: black;
-    display: flex;
-    border: 2px solid blue;
-}
 
 * {
     cursor: url(/images/transparent-cursor.cur), none;
 }
 
 i {
-     color: red;
- }
+    color: red;
+}
 h2 {
-     font-size: 78px;
-     text-align: center;
- }
+    font-size: 78px;
+    text-align: center;
+}
 
 .cookieText {
-    color: red;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
 }
 
-#feedMe {
+.cookieButtons {
     color:green;
+    border: 2px dotted white;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid white;
+    justify-content: space-around;
+}
+.cookieBox {
+    border: 2px solid red;
+    background-color: salmon;
+    position: fixed;
+    z-index: 1;
+
+    
 }
 
-#dontFeedMe {
-    color: red;
+.btn-eatCookies {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.btn-dontEatCookies {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 @keyframes spin {
     from {
-      transform: rotate(0turn);
+    transform: rotate(0turn);
     }
     to {
-      transform: rotate(1turn);
+    transform: rotate(1turn);
     }
 }
   
