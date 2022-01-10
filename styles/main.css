@@ -22,6 +22,28 @@ body {
     color: lightgreen;
 }
 
+.cookieBox {
+    border: 2px solid red;
+    display: flex;
+    background-color: salmon;
+    position: fixed;
+    z-index: 1;
+    flex-direction: column;
+}
+
+.cookieButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
 .cookieContent{
-    color: black;
+    display: flex;
+    border: 2px solid blue;
+
+}
+
+.cookieText {
+    color: red;
 }
