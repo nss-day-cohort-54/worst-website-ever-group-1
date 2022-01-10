@@ -19,15 +19,46 @@
 }
 
 body {
-    background-image: url(https://www.irishtimes.com/polopoly_fs/1.3620488.1536233099!/image/image.jpg);
     color: lightgreen;
 }
 
+.cookieBox {
+    border: 2px solid red;
+    display: flex;
+    background-color: salmon;
+    position: fixed;
+    z-index: 1;
+    flex-direction: column;
+}
+
+.cookieButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
 .cookieContent{
     color: black;
+    display: flex;
+    border: 2px solid blue;
 }
 
 * {
     cursor: url(/images/sausage-cursor.cur), none;
 }
 
+<<<<<<< HEAD
+=======
+i {
+     color: red;
+ }
+h2 {
+     font-size: 78px;
+     text-align: center;
+ }
+
+ .cookieText {
+    color: red;
+}
+>>>>>>> main
