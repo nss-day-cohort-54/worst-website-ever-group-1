@@ -19,6 +19,7 @@
 }
 
 body {
+    background-image: url(https://www.irishtimes.com/polopoly_fs/1.3620488.1536233099!/image/image.jpg);
     color: lightgreen;
 }
 
@@ -29,3 +30,4 @@ body {
 * {
     cursor: url(/images/sausage-cursor.cur), none;
 }
+
