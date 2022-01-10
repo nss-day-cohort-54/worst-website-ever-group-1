@@ -21,3 +21,7 @@
 body {
     color: lightgreen;
 }
+
+* {
+    cursor: url(/images/sausage-cursor.cur), none;
+}
