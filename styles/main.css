@@ -52,3 +52,11 @@ body {
 .cookieText {
     color: red;
 }
+
+#feedMe {
+    color:green;
+}
+
+#dontFeedMe {
+    color: red;
+}
