@@ -25,3 +25,7 @@ body {
 .cookieContent{
     color: black;
 }
+
+* {
+    cursor: url(/images/sausage-cursor.cur), none;
+}
