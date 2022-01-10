@@ -29,3 +29,10 @@ body {
 * {
     cursor: url(/images/sausage-cursor.cur), none;
 }
+ i {
+     color: red;
+ }
+ h2 {
+     font-size: 78px;
+     text-align: center;
+ }
