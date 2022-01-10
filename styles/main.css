@@ -1,0 +1,23 @@
+.border-one {
+    border-color: darkviolet;
+}
+
+.border-two {
+    border-color: deeppink;
+}
+
+.border-three {
+    border-color: goldenrod;
+}
+
+.border-four {
+    border-color: greenyellow;
+}
+
+.border-five {
+    border-color: indigo;
+}
+
+body {
+    color: lightgreen;
+}
