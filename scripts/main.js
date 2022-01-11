@@ -1,6 +1,11 @@
-var btn = document.getElementsByClassName("cookieBtn")
+var noBtn = document.getElementsByClassName("btn-dontEatCookies")
 
-btn.onclick = function() {
-    cookieBtn.style.display ="none"
+var yesBtn = document.getElementsByClassName("btn-eatCookies")
+
+yesBtn.onclick = function() {
+    cookeBox.style.display ="none"
 }
 
+noBtn.onclick = function() {
+    cookieBox.style.display = "block";
+}
