@@ -75,7 +75,7 @@ h2 {
 }
   
 .sausage-image2 {
-    /* animation: spin 1000ms; */
+    animation: spin 1000ms;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
