@@ -29,7 +29,18 @@ body {
 
 
 * {
-    cursor: url(/images/transparent-cursor.cur), none;
+    cursor: none;
+}
+
+.tooltip {
+    position: absolute;
+    z-index: 9999;
+    animation: myOrbit 3000ms linear infinite;
+}
+
+@keyframes myOrbit {
+    from { transform: rotate(0deg) translateX(-100px) translateY(-100px) scale(.01); }
+    to   { transform: rotate(360deg) translateX(100px) translateY(100px) scale(1); }
 }
 
 i {
@@ -86,7 +97,7 @@ h2 {
 }
   
 .sausage-image2 {
-    animation: spin 1000ms;
+    /* animation: spin 1000ms; */
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
