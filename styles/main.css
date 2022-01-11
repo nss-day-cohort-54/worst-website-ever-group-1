@@ -52,42 +52,19 @@ h2 {
     text-align: center;
 }
 
-.cookieText {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
+.cookieBox {
+    font-size:large;
+    background-color: red;
+    position: fixed;
+    margin-top: 10%;
 }
 
 .cookieButtons {
-    color:green;
-    border: 2px dotted white;
     display: flex;
-    flex-direction: row;
-    border: 2px solid white;
-    justify-content: space-around;
-}
-.cookieBox {
-    border: 2px solid red;
-    background-color: salmon;
-    position: fixed;
-    z-index: 1;
-
-    
-}
-
-.btn-eatCookies {
-    display: flex;
-    flex-direction: row;
     justify-content: space-around;
 }
 
-.btn-dontEatCookies {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
+
 @keyframes spin {
     from {
     transform: rotate(0turn);
